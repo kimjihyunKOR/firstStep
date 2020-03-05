@@ -1,0 +1,44 @@
+        a{
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            border-bottom: black solid 2px;
+            margin: 0;
+            padding: 20px;
+        }
+        img{
+            max-width: 70%; 
+            max-height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #all ol{
+            border-right: 2px black solid; 
+            margin-top: 0;
+            height: 100%;
+            padding: 30px;
+        }
+        #all{
+            display: grid;
+            grid-template-columns: 150px auto;
+            height: 100%;
+        }
+        #article{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        @media(max-width:600px){
+            #all{
+                display: block;
+            }
+            #all ol{
+                border-right: none;
+                border-bottom: 2px dotted black;
+            }
+        }
